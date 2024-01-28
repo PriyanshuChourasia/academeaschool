@@ -1,0 +1,38 @@
+.bgImage{
+    background-image: url('../../../assets/images/bgimage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: fixed;
+}
+
+
+
+
+.classBackImg{
+    background-image: url('../../../assets/images/studentImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+
+
+.applyBackImg{
+    background-image: url('../../../assets/images/libraryImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+
+
+.eventBg{
+    background: -webkit-linear-gradient(to top, #078C41 50%, white 50%);
+    background: -moz-linear-gradient(to top, #078C41 50%, white 50%);
+    background: linear-gradient(to top, #078C41 50%, white 50%);
+  
+}
