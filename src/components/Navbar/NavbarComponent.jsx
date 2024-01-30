@@ -8,11 +8,11 @@ const NavbarComponent = () =>{
 
 
     const navOption = [
-        {
-            "id":1,
-            "name":"Home",
-            "link":"/academeaschool/",
-        },
+        // {
+        //     "id":1,
+        //     "name":"Home",
+        //     "link":"/academeaschool/",
+        // },
         {
             "id":2,
             "name":"About",
