@@ -11,7 +11,7 @@ const NavbarComponent = () =>{
         {
             "id":1,
             "name":"Home",
-            "link":"/",
+            "link":"/academeaschool/",
         },
         {
             "id":2,

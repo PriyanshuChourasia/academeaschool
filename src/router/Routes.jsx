@@ -26,27 +26,27 @@ const router = createBrowserRouter([
                 element:<HomePage/>
             },
             {
-                path:'/academeaschool/about',
+                path:'about',
                 element:<AboutPage/>
             },
             {
-                path:'/academeaschool/academics',
+                path:'academics',
                 element:<AcademicsPage/>
             },
             {
-                path:'/academeaschool/gallery',
+                path:'gallery',
                 element:<GalleryPage/>
             },
             {
-                path:'/academeaschool/events',
+                path:'events',
                 element:<EventPage/>
             },
             {
-                path:'/academeaschool/admission',
+                path:'admission',
                 element:<AdmissionPage/>
             },
             {
-                path:'/academeaschool/contact',
+                path:'contact',
                 element:<ContactPage/>
             },
             {
