@@ -17,36 +17,36 @@ import ErrorPage from "../views/pages/error/ErrorPage";
 
 const router = createBrowserRouter([
     {
-        path:'/',
+        path:'/academeaschool/',
         element: <Main/>,
         errorElement:<ErrorPage/>,
         children:[
             {
-                path:'/',
+                path:'/academeaschool/',
                 element:<HomePage/>
             },
             {
-                path:'about',
+                path:'/academeaschool/about',
                 element:<AboutPage/>
             },
             {
-                path:'academics',
+                path:'/academeaschool/academics',
                 element:<AcademicsPage/>
             },
             {
-                path:'gallery',
+                path:'/academeaschool/gallery',
                 element:<GalleryPage/>
             },
             {
-                path:'events',
+                path:'/academeaschool/events',
                 element:<EventPage/>
             },
             {
-                path:'admission',
+                path:'/academeaschool/admission',
                 element:<AdmissionPage/>
             },
             {
-                path:'contact',
+                path:'/academeaschool/contact',
                 element:<ContactPage/>
             },
             {
