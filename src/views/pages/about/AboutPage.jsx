@@ -1,3 +1,5 @@
+import AboutIntro from "../../../components/AboutComponents/AboutIntro";
+import AboutMessage from "../../../components/AboutComponents/AboutMessage";
 
 
 
@@ -8,7 +10,8 @@
 const AboutPage = () => {
     return(
         <>
-        <h1>This one is ABout</h1>
+            <AboutIntro/>
+            <AboutMessage/>
         </>
     )
 }
