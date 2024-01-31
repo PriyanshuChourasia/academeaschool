@@ -5,3 +5,13 @@
     background-size: cover;
     background-clip: border-box;
 }
+
+
+
+.visionImg{
+    background-image: url('../../../assets/images/visionImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}

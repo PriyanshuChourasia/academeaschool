@@ -1,0 +1,19 @@
+
+[
+    {
+        "id":1,
+        "name":"Samir Ram",
+        "designation":"Principal",
+        "email":"info@gmail.com",
+        "role":"Administrator",
+        "profile": "https://images.unsplash.com/photo-1562788869-4ed32648eb72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHByaW5jaXBhbHxlbnwwfHwwfHx8Mg%3D%3D"
+    },
+    {
+        "id":2,
+        "name":"Priya Sharma",
+        "designation":"Vice-Principal",
+        "email":"info@gmail.com",
+        "role":"Assistant Principal",
+        "profile":"https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJpbmNpcGFsfGVufDB8fDB8fHwy"
+    }
+]
