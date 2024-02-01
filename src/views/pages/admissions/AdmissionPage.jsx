@@ -1,3 +1,4 @@
+import Admission from "../../../components/AdmissionComponents/Admission";
 
 
 
@@ -9,7 +10,7 @@
 const AdmissionPage = () =>{
     return(
         <>
-        this is admission page
+            <Admission/>
         </>
     )
 }

@@ -1,0 +1,9 @@
+.contactMapBg{
+    background-image: url('../../../assets/images/googlemapImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    height: 100%;
+    width: 100%;
+}

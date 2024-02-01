@@ -23,8 +23,8 @@ const HeaderComponent = () =>{
                     <div className='flex flex-row gap-4'>
                         <img src={Logo} alt="School Logo" className='w-14 rounded-full' />
                         <div>
-                            <p className='uppercase font-bold text-2xl'>nava jyoti vidyapith</p>
-                            <p className='uppercase text-lg font-thin text-light-textColor'>naihati</p>
+                            <p className='uppercase font-bold text-2xl'>{import.meta.env.VITE_REACT_APP_SCHOOL_NAME}</p>
+                            <p className='uppercase text-lg font-thin text-light-textColor'>India</p>
                         </div>
                     </div>
                 </div>

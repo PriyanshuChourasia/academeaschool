@@ -15,8 +15,8 @@ const Footer = () => {
                 <div className="flex flex-row gap-4 items-center">
                     <img src={SchoolLogo} alt="School Logo" className='w-20  rounded-full' />
                     <div>
-                        <p className='uppercase text-xl text-white font-semibold'>Nava jyoti vidyapith</p>
-                        <p className='uppercase text-xl font-semibold text-light-textColor'>naihati</p>
+                        <p className='uppercase text-xl text-white font-semibold'>{import.meta.env.VITE_REACT_APP_SCHOOL_NAME}</p>
+                        <p className='uppercase text-xl font-semibold text-light-textColor'>India</p>
                     </div>
                 </div>
                 <div>
