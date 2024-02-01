@@ -1,3 +1,4 @@
+import GalleryIntro from "../../../components/GalleryComponents/GalleryIntro";
 
 
 
@@ -8,7 +9,7 @@
 const GalleryPage = () =>{
     return(
         <>
-        this is gallery
+            <GalleryIntro/>
         </>
     )
 }

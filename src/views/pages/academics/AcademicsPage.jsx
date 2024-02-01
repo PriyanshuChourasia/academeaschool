@@ -1,3 +1,5 @@
+import AcademicsDetail from "../../../components/AcademicsComponents/AcademicsDetail";
+import AcademicsIntro from "../../../components/AcademicsComponents/AcademicsIntro";
 
 
 
@@ -8,8 +10,8 @@
 const AcademicsPage = () =>{
     return(
         <>
-        <h1>This one is Academics</h1>
-        
+            <AcademicsIntro/>
+            <AcademicsDetail/>
         </>
     )
 }

@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "name":"School Day",
+        "date":"31-01-2024"
+    },
+    {
+        "id":2,
+        "name":"Holi Celebration",
+        "date":"31-01-2024"
+    },
+    {
+        "id":3,
+        "name":"Diwali Celebration",
+        "date":"31-01-2024"
+    },
+    {
+        "id":4,
+        "name":"Annual Day",
+        "date":"31-01-2024"
+    },
+    {
+        "id":5,
+        "name":"Sports Day",
+        "date":"31-01-2024"
+    },
+    {
+        "id":6,
+        "name":"State Level Quiz",
+        "date":"31-01-2024"
+    },
+    {
+        "id":7,
+        "name":"Science Experiment Day",
+        "date":"31-01-2024"
+    }
+]
