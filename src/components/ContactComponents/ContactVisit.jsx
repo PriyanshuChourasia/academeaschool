@@ -45,9 +45,11 @@ const ContactVisit = () => {
                     </div>
                 </div>
                 <div className="py-12 px-8">
-                    <div className={`${ContactCss.contactMapBg}`}>
-
-                    </div>
+                    {/* <div className={`${ContactCss.contactMapBg}`}>
+                        
+                    </div> */}
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14731.959558256105!2d88.42012244396226!3d22.616852729017104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89e25e6597d69%3A0xf2a8229a9b93e1b8!2sBaguiati%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1706806966318!5m2!1sen!2sin"
+                     style={{border:"0",height:"100%",width:'100%'}} allowFullScreen=""  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
