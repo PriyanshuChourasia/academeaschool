@@ -1,0 +1,162 @@
+@tailwind components;
+
+
+
+@layer components {
+    .heroContainer {
+        @apply py-14 px-8
+    }
+
+    .heroGrid {
+        @apply grid grid-cols-2 gap-2
+    }
+
+    .heroCardBox {
+        @apply bg-light-cardColor px-8 py-4 overflow-hidden
+    }
+
+    .heroPara1 {
+        @apply text-7xl uppercase font-semibold 
+    }
+
+    .heroPara2 {
+        @apply text-3xl font-semibold  mt-8
+    }
+
+    .heroPara3 {
+        @apply text-lg font-thin  pt-1
+    }
+
+    .heroLinkBox {
+        @apply bg-light-buttonColor hover:bg-light-cardColor hover:border-white hover:border w-40 mt-8 mb-10 overflow-hidden cursor-pointer py-3 px-2 transition-all duration-300 ease-in hover:shadow-medium
+    }
+
+    .heroLinkPara {
+        @apply text-sm font-thin text-white tracking-widest text-center
+    }
+
+
+    /* Responsive Code for screen from 200px to 400px */
+    @media (min-width:200px) and (max-width:800px) {
+        .heroContainer {
+            @apply py-14 px-8 h-96
+        }
+        .heroGrid {
+            @apply hidden
+        }
+    }
+
+
+
+    
+
+
+    /* Responsive Code for screen from 801px to 900px */
+    @media (min-width:801px) and (max-width:900px) {
+        .heroContainer {
+            @apply py-14 px-8
+        }
+
+        .heroGrid {
+            @apply grid grid-cols-2 gap-2
+        }
+
+        .heroCardBox {
+            @apply bg-light-cardColor px-8 py-4 overflow-hidden
+        }
+
+        .heroPara1 {
+            @apply text-5xl uppercase font-semibold text-gray-200
+        }
+
+        .heroPara2 {
+            @apply text-2xl font-semibold text-gray-200 mt-8
+        }
+
+        .heroPara3 {
+            @apply text-xl font-thin text-gray-200 pt-1
+        }
+
+        .heroLinkBox {
+            @apply bg-light-buttonColor hover:bg-light-cardColor hover:border-white hover:border w-40 mt-4 mb-6 overflow-hidden cursor-pointer py-3 px-2 transition-all duration-300 ease-in hover:shadow-medium
+        }
+
+        .heroLinkPara {
+            @apply text-[12px] font-thin text-white tracking-widest text-center
+        }
+    }
+
+
+    /* Responsive Code for screen from 901px to 1000px */
+    @media (min-width:901px) and (max-width:1000px) {
+        .heroContainer {
+            @apply py-14 px-8
+        }
+
+        .heroGrid {
+            @apply grid grid-cols-2 gap-2
+        }
+
+        .heroCardBox {
+            @apply bg-light-cardColor px-8 py-4 overflow-hidden
+        }
+
+        .heroPara1 {
+            @apply text-6xl uppercase font-semibold text-white
+        }
+
+        .heroPara2 {
+            @apply text-3xl font-semibold text-gray-200 mt-8
+        }
+
+        .heroPara3 {
+            @apply text-lg font-thin text-gray-200 pt-1
+        }
+
+        .heroLinkBox {
+            @apply bg-light-buttonColor hover:bg-light-cardColor hover:border-white hover:border w-40 mt-8 mb-10 overflow-hidden cursor-pointer py-3 px-2 transition-all duration-300 ease-in hover:shadow-medium
+        }
+
+        .heroLinkPara {
+            @apply text-sm font-thin text-white tracking-widest text-center
+        }
+    }
+
+
+    /* Responsive Code for screen  1001px */
+    @media (min-width:1001px) and (max-width: 1440px) {
+        .heroContainer {
+            @apply py-14 px-8
+        }
+
+        .heroGrid {
+            @apply grid grid-cols-2 gap-2
+        }
+
+        .heroCardBox {
+            @apply bg-light-cardColor px-8 py-4 overflow-hidden
+        }
+
+        .heroPara1 {
+            @apply text-7xl uppercase font-semibold text-gray-200
+        }
+
+        .heroPara2 {
+            @apply text-3xl font-semibold text-white mt-8
+        }
+
+        .heroPara3 {
+            @apply text-lg font-thin text-gray-200 pt-1
+        }
+
+        .heroLinkBox {
+            @apply bg-light-buttonColor hover:bg-light-cardColor hover:border-white hover:border w-40 mt-8 mb-10 overflow-hidden cursor-pointer py-3 px-2 transition-all duration-300 ease-in hover:shadow-medium
+        }
+
+        .heroLinkPara {
+            @apply text-sm font-thin text-white tracking-widest text-center
+        }
+    }
+
+
+}

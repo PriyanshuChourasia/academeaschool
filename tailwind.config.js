@@ -6,6 +6,25 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        'mobile-xs':{'min':'200px','max':'400px'},
+        'mobile-sm':{'min':'401px','max':'600px'},
+        'mobile-md':{'min':'601px','max':'800px'},
+        'tablet-xs':{'max':'450px'},
+        'tablet-sm':{'max':'550px'},
+        'tablet-md':{'max':'650px'},
+        'tablet-lg':{'max':'850px'},
+        'tablet-xl':{'max':'950px'},
+        'tablet-2xl':{'max':'1050px'},
+        'tablet-3xl':{'max':'1150px'},
+        'desktop-xs':{'min':'801px','max':'1000px'},
+        'desktop-sm':{'min':'1001px','max':'1100px'},
+        'desktop-md':{'min':'1101px','max':'1200px'},
+        'desktop-lg':{'min':'1201px','max':'1400px'},
+        'desktop-xl':{'min':'1401px','max':'1600px'},
+        'desktop-2xl':{'min':'1601px','max':'1800px'},
+        
+      },
       textShadow:{
         'custom': '2px 2px 12px rgba(0, 0, 0, 0.5)'
       },
