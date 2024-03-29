@@ -1,5 +1,5 @@
 .bgImage{
-    background-image: url('../../../assets/images/bgimage.jpg');
+    background-image: url('../../../assets/images/navaJyotiImages/HomeBack.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +11,7 @@
 
 
 .classBackImg{
-    background-image: url('../../../assets/images/studentImage.jpg');
+    background-image: url('../../../assets/images/navaJyotiImages/classImage.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

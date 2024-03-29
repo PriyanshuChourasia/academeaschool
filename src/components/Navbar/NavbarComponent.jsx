@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import NavbarStyle from '../../styles/modules/NavbarCss/Navbar.module.css';
 
 
 
@@ -18,26 +19,26 @@ const NavbarComponent = () =>{
             "name":"About",
             "link":"about",
         },
-        {
-            "id":3,
-            "name":"Academics",
-            "link":"academics",
-        },
+        // {
+        //     "id":3,
+        //     "name":"Academics",
+        //     "link":"academics",
+        // },
         {
             "id":4,
             "name":"Gallery",
             "link":"gallery",
         },
-        {
-            "id":5,
-            "name":"Events",
-            "link":"events",
-        },
-        {
-            "id":6,
-            "name":"Admissions",
-            "link":"admission",
-        },
+        // {
+        //     "id":5,
+        //     "name":"Events",
+        //     "link":"events",
+        // },
+        // {
+        //     "id":6,
+        //     "name":"Admissions",
+        //     "link":"admission",
+        // },
         {
             "id":7,
             "name":"Contact",
@@ -47,11 +48,11 @@ const NavbarComponent = () =>{
 
 
     return(
-        <nav className="w-full py-4 bg-light-darkPrimary">
-            <div className="justify-center flex gap-14">
+        <nav className={`${NavbarStyle.navbarContainer}`}>
+            <div className={`${NavbarStyle.navbarOption}`}>
                 {
                     navOption.map((nav)=>(
-                        <NavLink to={nav.link} key={nav.id} className="text-lg cursor-pointer  font-thin text-gray-300 hover:[text-shadow:1px_1px_20px_rgb(255,255,255)] shadow-white transition-all duration-300 ease-in" >{nav.name}</NavLink>
+                        <NavLink to={nav.link} key={nav.id} className={`${NavbarStyle.navLinkOption}`} >{nav.name}</NavLink>
                     ))
                 }
             </div>

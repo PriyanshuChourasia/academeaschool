@@ -1,6 +1,7 @@
 import AboutIntro from "../../../components/AboutComponents/AboutIntro";
-import AboutMessage from "../../../components/AboutComponents/AboutMessage";
-import AboutStaff from "../../../components/AboutComponents/AboutStaff";
+// import AboutMessage from "../../../components/AboutComponents/AboutMessage";
+// import AboutStaff from "../../../components/AboutComponents/AboutStaff";
+import AboutMessage from "../../../components/AboutComponents/NavaJyoti/AboutMessage";
 
 
 
@@ -13,7 +14,7 @@ const AboutPage = () => {
         <>
             <AboutIntro/>
             <AboutMessage/>
-            <AboutStaff/>
+            {/* <AboutStaff/> */}
         </>
     )
 }

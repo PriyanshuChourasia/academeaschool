@@ -1,0 +1,58 @@
+@tailwind components;
+
+
+
+@layer components{
+    .studentContainer{
+        @apply w-full py-12 mt-8 mb-10
+    }
+    .para1{
+        @apply text-center font-bold text-4xl text-light-textColor uppercase
+    }
+    .subPara1{
+        @apply text-3xl font-thin
+    }
+    .para2{
+       @apply mt-6 font-thin text-gray-600 text-center px-32
+    }
+    .buttonContainer{
+        @apply flex mt-8 justify-center
+    }
+    .gridContainer{
+        @apply px-16 mt-20
+    }
+    .gridContainer1{
+        @apply grid grid-cols-2
+    }
+    .subGrid1{
+        @apply py-14 px-24 bg-light-darkPrimary
+    }
+    .subGrid1Header{
+        @apply text-center text-3xl text-gray-400 underline hover:text-gray-100 cursor-pointer
+    }
+    .subGrid1Para{
+        @apply text-gray-200 pt-8 text-justify
+    }
+    .subGrid1ButtonContainer{
+        @apply flex justify-center mt-8
+    }
+    .gridContainer2{
+        @apply grid grid-cols-2
+    }
+    .subGrid2{
+        @apply py-14 px-24 bg-light-darkPrimary
+    }
+    .subGrid2Header{
+        @apply text-3xl text-center text-gray-400 underline hover:text-gray-100 cursor-pointer
+    }
+    .subGrid2Para{
+        @apply text-gray-200 pt-10 text-justify
+    }
+    .subGrid2ButtonContainer{
+        @apply mt-10 flex justify-center
+    }
+
+
+
+
+}

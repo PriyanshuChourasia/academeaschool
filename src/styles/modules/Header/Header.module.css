@@ -1,0 +1,331 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+    .header{
+        @apply w-full  bg-light-secondary px-6 py-6
+    }
+
+    .headerContainer {
+        @apply grid grid-cols-2
+    }
+
+    .headerContainerGrid1 {
+        @apply flex justify-between items-center
+    }
+
+    .headerLogoSchoolName {
+        @apply flex flex-col justify-center items-center gap-4
+    }
+
+    .imgLogo {
+        @apply w-14 rounded-full
+    }
+
+    .schoolName {
+        @apply uppercase font-bold text-xs
+    }
+
+    .schoolAddress {
+        @apply uppercase text-xs font-thin text-light-textColor
+    }
+
+    .menuIcon {
+        @apply cursor-pointer hidden
+    }
+
+    .headerGridContainer2 {
+        @apply grid grid-cols-1 py-2 overflow-hidden
+    }
+
+    .headerLoginContainer {
+        @apply hidden hover:shadow-lg transition-all ease-in-out duration-300 gap-2 overflow-hidden rounded-md cursor-pointer justify-center content-center items-center
+    }
+
+    .headerLoginText {
+        @apply text-lg font-thin
+    }
+
+    .socialMediaIcons {
+        @apply flex flex-row gap-6 justify-end items-center content-center cursor-pointer
+    }
+
+
+
+    /* Responsive Code for screen from 200px to 400px */
+    @media (min-width:200px) and (max-width:400px) {
+        .header{
+            @apply w-full  bg-light-secondary px-6 py-4 
+        }
+        .headerContainer {
+            @apply grid grid-cols-1
+        }
+
+        .headerContainerGrid1 {
+            @apply flex justify-between items-center
+        }
+
+        .headerLogoSchoolName {
+            @apply flex flex-row gap-1
+        }
+
+        .imgLogo {
+            @apply w-7
+        }
+
+        .schoolName {
+            @apply text-sm
+        }
+
+        .schoolAddress {
+            @apply text-[11px]
+        }
+
+        .menuIcon {
+            @apply block
+        }
+
+        .headerGridContainer2 {
+            @apply hidden
+        }
+    }
+
+    /* Responsive Code for screen from 401px to 600px */
+    @media (min-width:401px) and (max-width:600px) {
+        .header{
+            @apply w-full  bg-light-secondary px-6 py-4
+        }
+        .headerContainer {
+            @apply grid grid-cols-1
+        }
+
+        .headerContainerGrid1 {
+            @apply flex justify-between items-center
+        }
+
+        .headerLogoSchoolName {
+            @apply flex flex-row gap-1
+        }
+
+        .imgLogo {
+            @apply w-7
+        }
+
+        .schoolName {
+            @apply text-sm
+        }
+
+        .schoolAddress {
+            @apply text-[11px]
+        }
+
+        .menuIcon {
+            @apply block
+        }
+
+        .headerGridContainer2 {
+            @apply hidden
+        }
+    }
+
+
+    /* Responsive Code for screen from 601px to 800px */
+    @media (min-width:601px) and (max-width:800px) {
+        .header{
+            @apply w-full  bg-light-secondary px-6 py-6
+        }
+        .headerContainer {
+            @apply grid grid-cols-2
+        }
+
+        .headerContainerGrid1 {
+            @apply flex justify-between items-center
+        }
+
+        .headerLogoSchoolName {
+            @apply flex flex-row gap-1
+        }
+
+        .imgLogo {
+            @apply w-9
+        }
+
+        .schoolName {
+            @apply text-lg
+        }
+
+        .schoolAddress {
+            @apply text-[14px]
+        }
+
+        .menuIcon {
+            @apply hidden
+        }
+
+        .headerGridContainer2 {
+            @apply block
+        }
+    }
+
+
+
+
+    /* Responsive Code for screen from 801px to 1000px */
+    @media (min-width:801px) and (max-width:1000px) {
+        .header{
+            @apply w-full  bg-light-secondary px-6 py-6
+        }
+        .headerContainer {
+            @apply grid grid-cols-2
+        }
+
+        .headerContainerGrid1 {
+            @apply flex justify-between items-center
+        }
+
+        .headerLogoSchoolName {
+            @apply flex flex-row gap-1
+        }
+
+        .imgLogo {
+            @apply w-10
+        }
+
+        .schoolName {
+            @apply text-xl
+        }
+
+        .schoolAddress {
+            @apply text-[15px]
+        }
+
+        .menuIcon {
+            @apply hidden
+        }
+
+        .headerGridContainer2 {
+            @apply block
+        }
+    }
+
+
+    /* Responsive Code for screen from 1001px to 1200px */
+    @media (min-width:1001px) and (max-width:1200px) {
+        .header{
+            @apply w-full  bg-light-secondary px-6 py-6
+        }
+        .headerContainer {
+            @apply grid grid-cols-2
+        }
+
+        .headerContainerGrid1 {
+            @apply flex justify-between items-center
+        }
+
+        .headerLogoSchoolName {
+            @apply flex flex-row gap-1
+        }
+
+        .imgLogo {
+            @apply w-12
+        }
+
+        .schoolName {
+            @apply text-2xl
+        }
+
+        .schoolAddress {
+            @apply text-[16px]
+        }
+
+        .menuIcon {
+            @apply hidden
+        }
+
+        .headerGridContainer2 {
+            @apply block
+        }
+    }
+
+
+    /* Responsive Code for screen from 1201px to 1400px */
+    @media (min-width:1201px) and (max-width:1400px) {
+        .header{
+            @apply w-full  bg-light-secondary px-6 py-6
+        }
+        .headerContainer {
+            @apply grid grid-cols-2
+        }
+
+        .headerContainerGrid1 {
+            @apply flex justify-between items-center
+        }
+
+        .headerLogoSchoolName {
+            @apply flex flex-row gap-1
+        }
+
+        .imgLogo {
+            @apply w-14
+        }
+
+        .schoolName {
+            @apply text-3xl
+        }
+
+        .schoolAddress {
+            @apply text-[18px]
+        }
+
+        .menuIcon {
+            @apply hidden
+        }
+
+        .headerGridContainer2 {
+            @apply block
+        }
+    }
+
+
+
+    /* Responsive Code for screen 1400px */
+    @media (min-width:1400px) {
+        .header{
+            @apply w-full  bg-light-secondary px-6 py-6
+        }
+        .headerContainer {
+            @apply grid grid-cols-2
+        }
+
+        .headerContainerGrid1 {
+            @apply flex justify-between items-center
+        }
+
+        .headerLogoSchoolName {
+            @apply flex flex-row gap-1
+        }
+
+        .imgLogo {
+            @apply w-14
+        }
+
+        .schoolName {
+            @apply text-3xl
+        }
+
+        .schoolAddress {
+            @apply text-[18px]
+        }
+
+        .menuIcon {
+            @apply hidden
+        }
+
+        .headerGridContainer2 {
+            @apply block
+        }
+    }
+}

@@ -13,7 +13,7 @@ const HomePage = () =>{
             <Hero/>
             <StudentLife/>
            <Event/>
-           <SignUpNews/>
+           {/* <SignUpNews/> */}
         </div>
     )
 }
