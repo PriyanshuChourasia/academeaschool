@@ -19,26 +19,26 @@ const NavbarComponent = () =>{
             "name":"About",
             "link":"about",
         },
-        // {
-        //     "id":3,
-        //     "name":"Academics",
-        //     "link":"academics",
-        // },
+        {
+            "id":3,
+            "name":"Academics",
+            "link":"academics",
+        },
         {
             "id":4,
             "name":"Gallery",
             "link":"gallery",
         },
-        // {
-        //     "id":5,
-        //     "name":"Events",
-        //     "link":"events",
-        // },
-        // {
-        //     "id":6,
-        //     "name":"Admissions",
-        //     "link":"admission",
-        // },
+        {
+            "id":5,
+            "name":"Events",
+            "link":"events",
+        },
+        {
+            "id":6,
+            "name":"Admissions",
+            "link":"admission",
+        },
         {
             "id":7,
             "name":"Contact",
