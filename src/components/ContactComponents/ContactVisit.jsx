@@ -46,8 +46,8 @@ const ContactVisit = () => {
                 </div>
                 <div className="py-12 px-8">
                    
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14731.959558256105!2d88.42012244396226!3d22.616852729017104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89e25e6597d69%3A0xf2a8229a9b93e1b8!2sBaguiati%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1706806966318!5m2!1sen!2sin"
-                     style={{border:"0",height:"100%",width:'100%'}} allowFullScreen=""  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.9665583227743!2d88.38108197476487!3d22.84072672309081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f890dd0b90b921%3A0xdf3d4206d1ec43e4!2sNava%20Jyoti%20Vidyapith!5e0!3m2!1sen!2sin!4v1711882075272!5m2!1sen!2sin" 
+                style={{ height:'100%', width:'100%', border:'0' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
             </div>

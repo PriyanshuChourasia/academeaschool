@@ -15,7 +15,7 @@ const ContactPage = () =>{
         <>
             <Contact/>
             <ContactVisit/>
-            <ContactForm/>
+            {/* <ContactForm/> */}
         </>
     )
 }
