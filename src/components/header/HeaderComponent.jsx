@@ -3,59 +3,63 @@ import { IoPersonCircleOutline } from "react-icons/io5";
 import { CiFacebook } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
-import { IoMenu } from "react-icons/io5";   
-import { useEffect, useState } from 'react';
+import { IoMenu } from "react-icons/io5";
+import { useContext, useEffect, useState } from 'react';
 import HeaderStyle from '../../styles/modules/Header/Header.module.css';
+import NavbarContext from '../../context/NavbarContext';
 
 
 
 
 
 
-const HeaderComponent = () =>{
+const HeaderComponent = () => {
 
     // const iconSize = 30;
     const [iconSize, setIconSize] = useState(0);
+    const {navOpen,setNavOpen} = useContext(NavbarContext)
 
-    useEffect(()=>{
-        function handleResize(){
+    useEffect(() => {
+        function handleResize() {
             const screenSize = window.innerWidth;
-            if(screenSize < 400)
-            {
+            if (screenSize < 400) {
                 setIconSize(25);
             }
-            else if(screenSize < 500)
-            {
-                setIconSize(20);
+            else if (screenSize < 500) {
+                setIconSize(25);
             }
-            else if(screenSize > 600)
-            {
+            else if (screenSize > 600) {
                 setIconSize(32)
             }
         }
         handleResize();
-        window.addEventListener("resize",handleResize);
+        window.addEventListener("resize", handleResize);
 
-        return () =>{
-            window.removeEventListener("resize",handleResize);
+        return () => {
+            window.removeEventListener("resize", handleResize);
         };
-    },[]);
+    }, []);
+
+
+    const handleNavbarOpen = () =>{
+        setNavOpen(!navOpen);
+    }
 
 
 
-    return(
+    return (
         <header className={`${HeaderStyle.header} overflow-hidden`}>
             <div className={` ${HeaderStyle.headerContainer}  `}>
                 <div className={`${HeaderStyle.headerContainerGrid1}`}>
                     <div className={`${HeaderStyle.headerLogoSchoolName}  `}>
-                        <img src={Logo} alt="School Logo" className={`${HeaderStyle.imgLogo}`}/>
+                        <img src={Logo} alt="School Logo" className={`${HeaderStyle.imgLogo}`} />
                         <div className='ml-4'>
                             <p className={`${HeaderStyle.schoolName} `}>{import.meta.env.VITE_REACT_APP_SCHOOL_NAME}</p>
                             <p className={` ${HeaderStyle.schoolAddress} `}>{import.meta.env.VITE_REACT_APP_SCHOOL_ADDRESS}</p>
                         </div>
                     </div>
-                    <div>   
-                    <IoMenu size={iconSize} className={`${HeaderStyle.menuIcon}`} />
+                    <div>
+                        <IoMenu onClick={handleNavbarOpen} size={iconSize} className={`${HeaderStyle.menuIcon}`} />
                     </div>
                 </div>
                 <div className={`${HeaderStyle.headerGridContainer2} `}>
@@ -66,7 +70,7 @@ const HeaderComponent = () =>{
                     <div className={`${HeaderStyle.socialMediaIcons}`}>
                         <CiFacebook size={iconSize} />
                         <FaWhatsapp size={iconSize} />
-                        <CiTwitter size={iconSize}/>
+                        <CiTwitter size={iconSize} />
                     </div>
                 </div>
             </div>

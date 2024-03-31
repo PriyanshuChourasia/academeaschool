@@ -1,0 +1,186 @@
+[
+    {
+        "id":1,
+        "parentId":null,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img1.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":2,
+        "parentId":null,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img2.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":3,
+        "parentId":null,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img3.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":4,
+        "parentId":1,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img4.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":5,
+        "parentId":1,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img5.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":6,
+        "parentId":1,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img6.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":7,
+        "parentId":2,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img7.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":8,
+        "parentId":2,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img8.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":9,
+        "parentId":2,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img9.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":10,
+        "parentId":2,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img10.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":11,
+        "parentId":2,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img11.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":12,
+        "parentId":2,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img12.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":13,
+        "parentId":2,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img13.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":14,
+        "parentId":1,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img14.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":15,
+        "parentId":3,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img15.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":16,
+        "parentId":3,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img16.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":17,
+        "parentId":3,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img17.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":18,
+        "parentId":3,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img18.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":19,
+        "parentId":3,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img19.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":20,
+        "parentId":3,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img20.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":21,
+        "parentId":3,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img21.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":22,
+        "parentId":3,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img22.jpeg",
+        "doe":"30-03-2021"
+    },
+    {
+        "id":23,
+        "parentId":3,
+        "name":"Pricipal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
+        "image":"/academeaschool/src/assets/images/navajyotigallery/img23.jpeg",
+        "doe":"30-03-2021"
+    }
+]

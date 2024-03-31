@@ -1,11 +1,17 @@
 import { NavLink } from "react-router-dom";
 import NavbarStyle from '../../styles/modules/NavbarCss/Navbar.module.css';
+import { useContext } from "react";
+import NavbarContext from "../../context/NavbarContext";
 
 
 
 
 
 const NavbarComponent = () =>{
+
+    const {navOpen} = useContext(NavbarContext);
+
+    
 
 
     const navOption = [

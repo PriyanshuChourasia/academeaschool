@@ -8,6 +8,7 @@ import EventPage from "../views/pages/events/EventPage";
 import AdmissionPage from "../views/pages/admissions/AdmissionPage";
 import ContactPage from "../views/pages/contact/ContactPage";
 import ErrorPage from "../views/pages/error/ErrorPage";
+import GalleryPictures from "../components/GalleryComponents/GalleryPictures/GalleryPictures";
 
 
 
@@ -35,11 +36,15 @@ const router = createBrowserRouter([
             },
             {
                 path:'gallery',
-                element:<GalleryPage/>
+                element:<GalleryPage/>,
+            },
+            {
+                path:'gallery/:imageId',
+                element: <GalleryPictures/>
             },
             {
                 path:'events',
-                element:<EventPage/>
+                element:<EventPage/>,
             },
             {
                 path:'admission',
