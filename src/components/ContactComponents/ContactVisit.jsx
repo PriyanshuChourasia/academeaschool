@@ -45,9 +45,11 @@ const ContactVisit = () => {
                     </div>
                 </div>
                 <div className="py-12 px-8">
-                    <div className={`${ContactCss.contactMapBg}`}>
+                    {/* <div className={`${ContactCss.contactMapBg}`}>
 
-                    </div>
+                    </div> */}
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.966558322774!2d88.38108197476488!3d22.840726723090814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f890dd0b90b921%3A0xdf3d4206d1ec43e4!2sNava%20Jyoti%20Vidyapith!5e0!3m2!1sen!2sin!4v1711861132111!5m2!1sen!2sin" 
+                    style={{width:'100%', height:'100%',border:'0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
