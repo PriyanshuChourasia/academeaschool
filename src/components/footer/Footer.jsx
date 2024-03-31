@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import SchoolLogo from '../../assets/images/schoolLogo.jpeg';
 
 
@@ -22,10 +23,10 @@ const Footer = () => {
                 <div>
                     <p className='uppercase text-2xl mobile-xs:text-[15px] mobile-sm:text-[18px] mobile-md:text-xl font-medium text-light-primary'>Quick Navigation</p>
                     <ul className='py-8 mobile-xs:py-2 mobile-sm:py-4 mobile-md:py-6 text-white text-lg mobile-xs:text-sm mobile-sm:text-[16px] mobile-md:text-[17px]'>
-                        <li className='py-2 tracking-wider'>Home</li>
-                        <li className='py-2 tracking-wider'>About</li>
+                        <li className='py-2 tracking-wider'><Link to={'/academeaschool/'}>Home</Link></li>
+                        <li className='py-2 tracking-wider'><Link to={'about'}>About</Link></li>
                         {/* <li className='py-2 tracking-wider'>Event</li> */}
-                        <li className='py-2 tracking-wider'>Gallery</li>
+                        <li className='py-2 tracking-wider'><Link to={'gallery'}>Gallery</Link></li>
                         {/* <li className='py-2 tracking-wider'>Admission</li> */}
                     </ul>
                 </div>

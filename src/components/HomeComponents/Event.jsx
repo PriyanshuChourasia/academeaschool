@@ -100,9 +100,8 @@ const Event = () => {
 
 
                 <div className='mt-12 mobile-xs:hidden mobile-sm:hidden mobile-md:hidden desktop-xs:hidden flex justify-center'>
-                    <CustomButton btnClass={'py-3 text-md tracking-wider text-white border px-12 font-thin hover:bg-white bg-light-darkPrimary hover:text-light-textColor transition-all duration-300 ease-in '} btnName={'View Events'} />
+                    <CustomButton btnClass={'py-3 text-md tracking-wider text-white border px-12 font-thin hover:bg-white bg-light-darkPrimary hover:text-light-textColor transition-all duration-300 ease-in '} link={'events'} btnName={'View Events'} />
                 </div>
-
 
 
             </div>

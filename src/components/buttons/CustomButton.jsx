@@ -1,16 +1,11 @@
+import { Link } from "react-router-dom"
 
 
 
 
-
-// padding 
-
-
-
-
-const CustomButton = ({btnName,btnClass}) =>{
+const CustomButton = ({btnName,btnClass,link}) =>{
     return(
-        <button className={`${btnClass} text-md tracking-wider text-white border `}>{btnName}</button>
+      <Link to={link}><button className={`${btnClass} text-md tracking-wider text-white border `}>{btnName}</button></Link>
     )
 }
 
