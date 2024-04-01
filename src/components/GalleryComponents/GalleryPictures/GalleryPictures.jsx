@@ -1,7 +1,5 @@
 import { useParams } from "react-router-dom";
-import GalleryImages from '../../../data/GalleryData/GalleryData.json';
-import Image1 from '../../../assets/images/navajyotigallery/img1.jpeg';
-import { useEffect, useState } from "react";
+import GalleryImages from '../../../data/GalleryData/GalleryGithubData.json';
 
 
 
