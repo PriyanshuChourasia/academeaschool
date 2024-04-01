@@ -4,7 +4,7 @@
         "parentId":null,
         "name":"Principal",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
-        "image":"/academeaschool/src/assets/images/navajyotigallery/img1.jpeg",
+        "image":"./src/assets/images/navajyotigallery/img1.jpeg",
         "doe":"30-03-2021"
     },
     {
@@ -12,7 +12,7 @@
         "parentId":null,
         "name":"Principal",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
-        "image":"/academeaschool/src/assets/images/navajyotigallery/img2.jpeg",
+        "image":"./src/assets/images/navajyotigallery/img2.jpeg",
         "doe":"30-03-2021"
     },
     {
@@ -20,7 +20,7 @@
         "parentId":null,
         "name":"Principal",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
-        "image":"/academeaschool/src/assets/images/navajyotigallery/img3.jpeg",
+        "image":"./src/assets/images/navajyotigallery/img3.jpeg",
         "doe":"30-03-2021"
     },
     {
