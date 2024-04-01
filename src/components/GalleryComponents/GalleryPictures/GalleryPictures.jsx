@@ -32,7 +32,7 @@ const GalleryPictures = () => {
                          mobile-xs:w-80
                            mobile-sm:h-44 mobile-sm:w-80 mobile-md:h-56 mobile-md:w-96 desktop-xs:h-60 desktop-xs:w-96 border
                             overflow-hidden border-black">
-                                <img src={Image1} alt="" className='h-full w-full rounded-xl' />
+                                <img src={'../../../assets/images/navajyotigallery/img1.jpeg'} alt="" className='h-full w-full rounded-xl' />
                             </div>
                         ))
                     }
