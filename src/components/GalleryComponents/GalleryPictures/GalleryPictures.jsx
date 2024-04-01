@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import GalleryImages from '../../../data/GalleryData/GalleryData.json';
+import Image1 from '../../../assets/images/navajyotigallery/img1.jpeg';
 
 
 
@@ -31,7 +32,7 @@ const GalleryPictures = () => {
                          mobile-xs:w-80
                            mobile-sm:h-44 mobile-sm:w-80 mobile-md:h-56 mobile-md:w-96 desktop-xs:h-60 desktop-xs:w-96 border
                             overflow-hidden border-black">
-                                <img src={imgVal.image} alt="" className='h-full w-full rounded-xl' />
+                                <img src={Image1} alt="" className='h-full w-full rounded-xl' />
                             </div>
                         ))
                     }
