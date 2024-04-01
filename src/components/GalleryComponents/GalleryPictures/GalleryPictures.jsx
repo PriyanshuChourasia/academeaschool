@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import GalleryImages from '../../../data/GalleryData/GalleryData.json';
 import Image1 from '../../../assets/images/navajyotigallery/img1.jpeg';
+import { useEffect, useState } from "react";
 
 
 
@@ -9,6 +10,9 @@ import Image1 from '../../../assets/images/navajyotigallery/img1.jpeg';
 const GalleryPictures = () => {
 
     let { imageId } = useParams();
+
+
+ 
 
 
 
@@ -32,7 +36,7 @@ const GalleryPictures = () => {
                          mobile-xs:w-80
                            mobile-sm:h-44 mobile-sm:w-80 mobile-md:h-56 mobile-md:w-96 desktop-xs:h-60 desktop-xs:w-96 border
                             overflow-hidden border-black">
-                                <img src={'../../../assets/images/navajyotigallery/img1.jpeg'} alt="" className='h-full w-full rounded-xl' />
+                                <img src={imgVal.image} alt="" className='h-full w-full rounded-xl' />
                             </div>
                         ))
                     }
