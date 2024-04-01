@@ -1,4 +1,4 @@
-import GalleryImgData from '../../../data/GalleryData/GalleryData.json';
+import GalleryImgData from '../../../data/GalleryData/GalleryGithubData.json';
 import { Link } from 'react-router-dom';
 
 
@@ -19,7 +19,7 @@ const GalleryFolder = () => {
                           overflow-hidden border-black">
                             <div className='absolute inset-0 bg-black opacity-50'></div>
                                 
-                                <img src={import.meta.env.VITE_REACT_APP_SCHOOL_PUBLIC_URL+imgVal.image} alt="" className='h-full w-full rounded-xl' />
+                                <img src={imgVal.image} alt="" className='h-full w-full rounded-xl' />
                                 <div className='absolute flex flex-col justify-center items-center h-36 w-full
                                  bg-[#e7b749] bottom-1 rounded-xl mobile-xs:h-24 mobile-sm:h-24 mobile-md:h-28'>
                                     <h2 className='text-3xl font-semibold mobile-xs:text-lg mobile-sm:text-xl mobile-md:text-2xl'>{imgVal.name}</h2>
