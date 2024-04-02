@@ -26,7 +26,7 @@ const Event = () => {
             "id": 1,
             "date": currentDate,
             "name": "Where Champions Rise Record Fall",
-            "image": 'assets/event1.jpeg',
+            "image": event1Img,
         },
         {
             "id": 2,

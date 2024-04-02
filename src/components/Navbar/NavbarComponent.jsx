@@ -40,11 +40,11 @@ const NavbarComponent = () =>{
             "name":"Events",
             "link":"events",
         },
-        {
-            "id":6,
-            "name":"Admissions",
-            "link":"admission",
-        },
+        // {
+        //     "id":6,
+        //     "name":"Admissions",
+        //     "link":"admission",
+        // },
         {
             "id":7,
             "name":"Contact",

@@ -13,7 +13,7 @@ const StudentLife = () => {
             <p className="text-center font-bold text-4xl text-light-textColor uppercase mobile-xs:text-2xl">Thriving Excellence: <span className="text-3xl font-thin mobile-xs:text-xl mobile-sm:text-2xl mobile-md:text-3xl ">Experience the Pinnacle of Student Life!</span></p>
             <p className="mt-6 font-thin text-gray-600 text-center px-32 mobile-xs:px-14 mobile-sm:px-16">Discover a world of excellence in our school. From engaging classrooms to enriching activities, we foster holistic growth. Join us for a vibrant student life where each day brings new opportunities to thrive and succeed. Your journey to success begins here!</p>
             <div className="flex mt-8 justify-center">
-                <DefaultButton btnName={'Student Life'} />
+                {/* <DefaultButton btnName={'Student Life'} /> */}
             </div>
 
             <div className="px-16 mobile-xs:px-4 mobile-sm:px-10 mobile-md:px-12 mt-20">
@@ -25,7 +25,7 @@ const StudentLife = () => {
                         <p className="text-center text-3xl mobile-xs:text-2xl mobile-sm:text-3xl mobile-md:text-3xl font-semibold text-gray-400 underline hover:text-gray-100 cursor-pointer">Student Life</p>
                         <p className=" text-gray-200 pt-8 mobile-xs:text-[16px] mobile-sm:text-[17px] mobile-md:text-[19px] text-justify">Student life: a dynamic tapestry of learning, growth, and connections. Beyond classes, it's where friendships form, passions ignite, and each moment shapes personal and academic success. Embrace the journey — a vibrant chapter filled with opportunities for self-discovery and lasting memories</p>
                         <div className="flex justify-center mt-8">
-                            <DefaultButton btnName={'Apply Today'} />
+                            {/* <DefaultButton btnName={'Apply Today'} /> */}
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const StudentLife = () => {
                         <p className="text-3xl text-center text-gray-400 underline hover:text-gray-100 cursor-pointer  mobile-xs:text-2xl mobile-sm:text-3xl mobile-md:text-3xl">Knowledge Hub Sanctuary</p>
                         <p className="text-gray-200 pt-10 text-justify mobile-xs:text-[16px] mobile-sm:text-[17px] mobile-md:text-[19px]">Journey into the realm of wisdom at our school library—where every page holds a universe waiting to be explored. Immerse yourself in knowledge, spark your curiosity, and unlock endless possibilities. From classic tales to modern adventures, our library is a haven for minds eager to learn. </p>
                         <div className="mt-10 flex justify-center">
-                                <DefaultButton btnName={'Dive In Today'} />
+                                {/* <DefaultButton btnName={'Dive In Today'} /> */}
                         </div>
                     </div>
                     <div className={`${HomeCss.applyBackImg}`}>
