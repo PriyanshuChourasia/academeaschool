@@ -17,8 +17,9 @@ const ContactVisit = () => {
                     <p className="text-center text-sm text-gray-300 font-thin">By Maintaining Safety Measures</p>
                     <div className="text-center my-10">
                         <h3 className="font-normal text-2xl text-gray-100 uppercase">Address</h3>
-                        <p className="text-gray-200 font-thin pt-2">500 Terry Francine Street</p>
-                        <p className="text-gray-200 font-thin ">San Francisco, CA 94158</p>
+                        <p className="text-gray-200 font-thin pt-2">Nava Jyoti Vidyapith</p>
+                        <p className="text-gray-200 font-thin ">20/1, E Kapte Para Rd, Authpur,</p>
+                        <p className="text-gray-200 font-thin "> Shyamnagar, Bhatpara, West Bengal 743128</p>
                     </div>
                     <div className="text-center my-10">
                         <h3 className="uppercase text-2xl text-gray-100 font-normal">Email Us</h3>
