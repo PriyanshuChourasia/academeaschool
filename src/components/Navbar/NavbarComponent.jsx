@@ -80,7 +80,7 @@ const NavbarComponent = () => {
 
 
 
-            <nav className={`${ navOpen ? 'block bg-light-darkPrimary p-4 duration-300 ease-in-out ': 'hidden'}`}>
+            <nav className={`${ navOpen ? 'block bg-light-darkPrimary p-4 duration-300 ease-in-out ': 'hidden'} ${NavbarStyle.responsiveNav}`}>
                 <div className="flex flex-col justify-between items-center">
                     <div className="flex flex-col items-center">
                         {
