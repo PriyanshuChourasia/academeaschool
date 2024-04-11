@@ -9,7 +9,7 @@ import NavbarContext from "../../context/NavbarContext";
 
 const NavbarComponent = () => {
 
-    const { navOpen } = useContext(NavbarContext);
+    const { navOpen , setNavOpen} = useContext(NavbarContext);
 
    
 
@@ -85,7 +85,7 @@ const NavbarComponent = () => {
                     <div className="flex flex-col items-center">
                         {
                             navOption.map((nav)=>(
-                                <NavLink to={nav.link} key={nav.id}  className={({isActive, isPending})=> isPending ? "text-gray-500 py-3 text-lg" : isActive ? "text-white underline underline-offset-1 py-3 text-lg":"text-gray-500 py-3 text-lg"} >{nav.name}</NavLink>
+                                <NavLink to={nav.link} key={nav.id} onClick={()=> setNavOpen(!navOpen)}  className={({isActive, isPending})=> isPending ? "text-gray-500 py-3 text-lg" : isActive ? "text-white underline underline-offset-1 py-3 text-lg":"text-gray-500 py-3 text-lg"} >{nav.name}</NavLink>
                             ))
                         }
                     </div>
