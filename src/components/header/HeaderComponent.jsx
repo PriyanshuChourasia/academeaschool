@@ -2,11 +2,12 @@ import Logo from '../../assets/images/schoolLogo.jpeg';
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { CiFacebook } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
-import { CiTwitter } from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import { useContext, useEffect, useState } from 'react';
 import HeaderStyle from '../../styles/modules/Header/Header.module.css';
 import NavbarContext from '../../context/NavbarContext';
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,13 +24,13 @@ const HeaderComponent = () => {
         function handleResize() {
             const screenSize = window.innerWidth;
             if (screenSize < 400) {
-                setIconSize(25);
+                setIconSize(28);
             }
             else if (screenSize < 500) {
-                setIconSize(25);
+                setIconSize(30);
             }
             else if (screenSize > 600) {
-                setIconSize(32)
+                setIconSize(36)
             }
         }
         handleResize();
@@ -68,9 +69,9 @@ const HeaderComponent = () => {
                         <span className={`${HeaderStyle.headerLoginText}`}>Login</span>
                     </div>
                     <div className={`${HeaderStyle.socialMediaIcons}`}>
-                        <CiFacebook size={iconSize} />
+                       <Link target='_blank' to={'https://www.facebook.com/Navajyoti1974/'}><CiFacebook size={iconSize} /></Link>
                         <FaWhatsapp size={iconSize} />
-                        <CiTwitter size={iconSize} />
+                       <Link target='_blank' to={'https://www.instagram.com/navajyoti1974/'}> <FaInstagram size={iconSize}/></Link>
                     </div>
                 </div>
             </div>

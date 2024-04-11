@@ -64,7 +64,7 @@ const Footer = () => {
                     <p className='text-light-textColor uppercase font-medium text-2xl mobile-xs:text-[15px] mobile-sm:text-[18px] mobile-md:text-xl'>Stay Connected</p>
                     <ul className='pt-8 mobile-xs:pt-2 mobile-sm:pt-4 mobile-md:pt-6 text-white text-lg mobile-xs:text-sm mobile-sm:text-[16px] mobile-md:text-[17px]'>
                         <li className='text-md py-2 text-white'><Link target='_blank' to={'https://www.facebook.com/Navajyoti1974/'}><FaFacebook color='white' size={iconSize} /></Link></li>
-                        <li className='text-md py-2 text-white'><Link target='_blank' to={'https://www.instagram.com/sameerbharatram/?hl=en'}><FaSquareInstagram size={iconSize} color='white'/></Link></li>
+                        <li className='text-md py-2 text-white'><Link target='_blank' to={'https://www.instagram.com/navajyoti1974/'}><FaSquareInstagram size={iconSize} color='white'/></Link></li>
                         <li className='text-md py-2 text-white'><PiWhatsappLogoBold size={iconSize}/></li>
                     </ul>
                 </div>
