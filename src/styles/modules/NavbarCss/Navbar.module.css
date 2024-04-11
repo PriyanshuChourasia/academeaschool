@@ -22,9 +22,7 @@
         .navLinkOption{
             @apply hidden
         }
-        .responsiveNav{
-            @apply block
-        }
+        
     }
 
 
@@ -40,7 +38,7 @@
             @apply block text-[16px] cursor-pointer  font-thin text-gray-300 hover:[text-shadow:1px_1px_20px_rgb(255,255,255)] shadow-white transition-all duration-300 ease-in
         }
         .responsiveNav{
-            @apply block
+            @apply hidden
         }
     }
 
@@ -57,7 +55,7 @@
             @apply block text-[17px] cursor-pointer  font-thin text-gray-300 hover:[text-shadow:1px_1px_20px_rgb(255,255,255)] shadow-white transition-all duration-300 ease-in
         }
         .responsiveNav{
-            @apply block
+            @apply hidden
         }
     }
 
@@ -74,7 +72,7 @@
             @apply block text-[18px] cursor-pointer  font-thin text-gray-300 hover:[text-shadow:1px_1px_20px_rgb(255,255,255)] shadow-white transition-all duration-300 ease-in
         }
         .responsiveNav{
-            @apply block
+            @apply hidden
         }
     }
 }
