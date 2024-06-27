@@ -33,12 +33,12 @@ import PageLoader from "../global/components/Loader/PageLoader";
 
 const router = createBrowserRouter([
     {
-        path:'/academeaschool/',
+        path:'/',
         element: <Suspense fallback={<PageLoader/>}><Main/></Suspense>,
         errorElement:<ErrorPage/>,
         children:[
             {
-                path:'/academeaschool/',
+                path:'/',
                 element:<HomePage/>
             },
             {
@@ -49,14 +49,14 @@ const router = createBrowserRouter([
                 path:'academics',
                 element:<AcademicsPage/>
             },
-            {
-                path:'gallery',
-                element:<GalleryPage/>,
-            },
-            {
-                path:'gallery/:imageId',
-                element: <GalleryPictures/>
-            },
+            // {
+            //     path:'gallery',
+            //     element:<GalleryPage/>,
+            // },
+            // {
+            //     path:'gallery/:imageId',
+            //     element: <GalleryPictures/>
+            // },
             {
                 path:'events',
                 element:<EventPage/>,

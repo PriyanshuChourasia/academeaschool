@@ -8,9 +8,9 @@
 const AboutIntro = () => {
     return (
         <div className="px-6">
-            <h1 className="text-6xl text-center pt-8 font-bold uppercase text-light-textColor mobile-xs:text-3xl mobile-sm:text-4xl mobile-md:text-5xl">Our school</h1>
-            <div className="py-6 px-20 text-left">
-                <p className=" m-0 mb-6 text-3xl mobile-xs:text-[20px] mobile-sm:text-[22px] mobile-md:text-[24px] font-medium">
+            <h1 className="pt-8 text-6xl font-bold text-center uppercase text-light-textColor mobile-xs:text-3xl mobile-sm:text-4xl mobile-md:text-5xl">Our school</h1>
+            <div className="px-20 py-6 text-left mobile-sm:px-4">
+                <p className=" m-0 mb-6 text-3xl mobile-xs:text-[20px] mobile-sm:text-center mobile-sm:text-[22px] mobile-md:text-[24px] font-medium">
                     Welcome to  {import.meta.env.VITE_REACT_APP_SCHOOL_NAME}!
                 </p>
                 <p className=" m-0 mb-4 text-lg mobile-xs:text-[17px] mobile-sm:text-[18px] mobile-md:text-[20px] font-thin">
@@ -48,7 +48,7 @@ const AboutIntro = () => {
                 <p className=" m-0 mb-4 text-lg mobile-xs:text-[17px] mobile-sm:text-[18px] mobile-md:text-[20px] font-thin">
                 Welcome to Nava Jyoti VidyaPith, where every student has the opportunity to shine!
                 </p>
-                <p className=" m-0 mb-4 text-3xl text-light-primary mobile-xs:text-[20px] mobile-sm:text-[22px] mobile-md:text-[24px] font-semibold">
+                <p className=" m-0 mb-4 mobile-sm:mb-1 text-3xl text-light-primary mobile-xs:text-[20px] mobile-sm:text-[22px] mobile-md:text-[24px] font-semibold">
                 Nava Jyoti VidyaPith
                 </p>
 

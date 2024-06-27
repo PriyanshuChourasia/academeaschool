@@ -21,7 +21,7 @@ const NavbarComponent = () => {
         {
             "id": 1,
             "name": "Home",
-            "link": "/academeaschool/",
+            "link": "/",
         },
         {
             "id": 2,
@@ -33,11 +33,11 @@ const NavbarComponent = () => {
             "name": "Academics",
             "link": "academics",
         },
-        {
-            "id": 4,
-            "name": "Gallery",
-            "link": "gallery",
-        },
+        // {
+        //     "id": 4,
+        //     "name": "Gallery",
+        //     "link": "gallery",
+        // },
         {
             "id": 5,
             "name": "Events",
@@ -81,7 +81,7 @@ const NavbarComponent = () => {
 
 
             <nav className={`${ navOpen ? 'block bg-light-darkPrimary p-4 duration-300 ease-in-out ': 'hidden'} ${NavbarStyle.responsiveNav}`}>
-                <div className="flex flex-col justify-between items-center">
+                <div className="flex flex-col items-center justify-between">
                     <div className="flex flex-col items-center">
                         {
                             navOption.map((nav)=>(

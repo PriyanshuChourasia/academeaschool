@@ -2,6 +2,7 @@
     {
         "id":1,
         "parentId":null,
+        "eventType":2,
         "name":"Principal",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
         "image":"https://raw.githubusercontent.com/PriyanshuChourasia/academeaschool/main/src/assets/images/navajyotigallery/img1.jpeg",
@@ -9,7 +10,8 @@
     },
     {
         "id":2,
-        "parentId":null,
+        "parentId":null,  
+        "eventType":3,
         "name":"Principal",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
         "image":"https://raw.githubusercontent.com/PriyanshuChourasia/academeaschool/main/src/assets/images/navajyotigallery/img2.jpeg",
@@ -18,6 +20,7 @@
     {
         "id":3,
         "parentId":null,
+        "eventType":4,
         "name":"Principal",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem necessitatibus doloremque aliquam saepe laborum! Libero, vero animi cupiditate rem placeat, harum blanditiis officiis ad itaque ea illum voluptas voluptatum.",
         "image":"https://raw.githubusercontent.com/PriyanshuChourasia/academeaschool/main/src/assets/images/navajyotigallery/img3.jpeg",
