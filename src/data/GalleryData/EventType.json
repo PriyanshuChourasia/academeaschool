@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "name":"All"
+    },
+    {
+        "id":2,
+        "name":"Sports"
+    },
+    {
+        "id":3,
+        "name":"Celebration"
+    },
+    {
+        "id":4,
+        "name":"Tours"
+    }
+]

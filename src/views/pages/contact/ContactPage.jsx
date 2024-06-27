@@ -12,11 +12,11 @@ import ContactVisit from "../../../components/ContactComponents/ContactVisit";
 
 const ContactPage = () =>{
     return(
-        <>
+        <div className="mobile-sm:flex mobile-sm:flex-col">
             <Contact/>
             <ContactVisit/>
             {/* <ContactForm/> */}
-        </>
+        </div>
     )
 }
 
