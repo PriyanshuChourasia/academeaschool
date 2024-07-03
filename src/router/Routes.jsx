@@ -11,6 +11,7 @@ import { createBrowserRouter } from "react-router-dom";
 // import GalleryPictures from "../components/GalleryComponents/GalleryPictures/GalleryPictures";
 import { lazy, Suspense } from "react";
 import PageLoader from "../global/components/Loader/PageLoader";
+import EventGalleryPictures from "../components/EventComponents/EventGalleryPictures";
 
 
 
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
             {
                 path:'events',
                 element:<EventPage/>,
+            },
+            {
+                path:'events/:eventId',
+                element: <EventGalleryPictures/>
             },
             {
                 path:'admission',

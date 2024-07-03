@@ -1,4 +1,4 @@
-import EventCalendar from "../../../components/EventComponents/EventCalendar";
+import Event from "../../../components/EventComponents";
 
 
 
@@ -10,7 +10,8 @@ import EventCalendar from "../../../components/EventComponents/EventCalendar";
 const EventPage = () =>{
     return(
         <>
-            <EventCalendar/>
+            {/* <EventCalendar/> */}
+            <Event/>
         </>
     )
 }
