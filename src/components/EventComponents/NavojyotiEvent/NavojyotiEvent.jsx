@@ -5,7 +5,6 @@ import ImageData from '../../../../public/navajyotiEvent.json';
 
 const NavojyotiEvent = () => {
 
-    console.log(ImageData,'image data');
 
   return (
     <div className='flex flex-wrap justify-center gap-4 px-4 pt-6 pb-4'>

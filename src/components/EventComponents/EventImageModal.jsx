@@ -3,7 +3,6 @@ import EventCss from './styles/EventCss.module.css';
 
 const EventImageModal = ({modalData, eventName}) => {
 
-    console.log(modalData);
 
   return (
     <div className={`${EventCss.modalOverlay}`}>
