@@ -1,0 +1,13 @@
+.modalOverlay{
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(121, 121, 121, 0.725);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
