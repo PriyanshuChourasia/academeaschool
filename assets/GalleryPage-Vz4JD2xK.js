@@ -1,4 +1,4 @@
-import{j as e,L as r,r as n}from"./index-3dJSt-qa.js";import{G as a}from"./GalleryGithubData-lLpzQgno.js";const m=()=>e.jsx(e.Fragment,{children:e.jsx("div",{className:`flex justify-center  gap-10 flex-wrap  overflow-hidden mobile-xs:flex mobile-xs:flex-col
+import{j as e,L as r,r as n}from"./index-oq_3IXbN.js";import{G as a}from"./GalleryGithubData-lLpzQgno.js";const m=()=>e.jsx(e.Fragment,{children:e.jsx("div",{className:`flex justify-center  gap-10 flex-wrap  overflow-hidden mobile-xs:flex mobile-xs:flex-col
              mobile-xs:justify-center mobile-xs:items-center mobile-xs:gap-4
             mobile-sm:flex-col mobile-sm:justify-center mobile-sm:items-center mobile-sm:gap-4
              mobile-md:flex-wrap mobile-md:gap-6  mobile-md:justify-center mobile-md:items-center
