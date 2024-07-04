@@ -22,12 +22,7 @@ const Event = () => {
     let currentDate = `${day}-${month}-${year}`;
 
     const eventCard = [
-        {
-            "id": 1,
-            "date": currentDate,
-            "name": "Where Champions Rise Record Fall",
-            "image": event1Img,
-        },
+  
         {
             "id": 2,
             "date": currentDate,
@@ -48,24 +43,24 @@ const Event = () => {
     return (
         <>
             <div className='my-14'>
-                <p className="text-center uppercase text-5xl font-bold">School events</p>
+                <p className="text-5xl font-bold text-center uppercase">School events</p>
             </div>
             <div className={`mt-14 py-14 w-full ${HomeCss.eventBg}`}>
 
 
-                <div className='px-14 flex justify-center mobile-xs:hidden mobile-sm:hidden mobile-md:hidden desktop-xs:hidden'>
+                <div className='flex justify-center px-14 mobile-xs:hidden mobile-sm:hidden mobile-md:hidden desktop-xs:hidden'>
                     {
                         eventCard.map((card) => (
                             <div key={card.id} className={`w-96 mx-6 rounded overflow-hidden shadow-lg bg-cover relative`}>
                                 <div className='absolute inset-0 bg-black opacity-50'></div>
                                 <div className='relative'>
-                                    <img src={card.image} alt="Event Image" className='w-full h-56 object-cover' />
-                                    <div className='absolute inset-0  h-full flex flex-col justify-between p-4 bg-black bg-opacity-50 text-white'>
+                                    <img src={card.image} alt="Event Image" className='object-cover w-full h-56' />
+                                    <div className='absolute inset-0 flex flex-col justify-between h-full p-4 text-white bg-black bg-opacity-50'>
                                         <div>
-                                            <span className='text-gray-200 font-thin text-xl'>{card.date}</span>
+                                            <span className='text-xl font-thin text-gray-200'>{card.date}</span>
                                         </div>
                                         <div className='absolute bottom-6'>
-                                            <span className='font-semibold text-lg'>{card.name}</span>
+                                            <span className='text-lg font-semibold'>{card.name}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -77,13 +72,13 @@ const Event = () => {
                     }
                 </div>
                 <div className='hidden mobile-xs:block mobile-sm:block mobile-md:block desktop-xs:block'>
-                    <div className='px-14 flex justify-center mobile-xs:block mobile-sm:block mobile-md:block desktop-xs:block '>
+                    <div className='flex justify-center px-14 mobile-xs:block mobile-sm:block mobile-md:block desktop-xs:block '>
                         {
                             SchoolEvent.map((school, index) => (
-                                <div key={index} className='py-6 px-12 bg-white border-2 mb-2 border-light-darkPrimary'>
-                                    <div className='flex mobile-xs:flex-col mobile-sm:flex-col mobile-sm:gap-4 justify-between items-center content-center'>
+                                <div key={index} className='px-12 py-6 mb-2 bg-white border-2 border-light-darkPrimary'>
+                                    <div className='flex items-center content-center justify-between mobile-xs:flex-col mobile-sm:flex-col mobile-sm:gap-4'>
                                         <div>
-                                            <time className='text-sm mobile-xs:text-[10px] mobile-sm:text-[11px] mobile-md:text-xs'>{`${new Date(school.date).toLocaleDateString([], { day: 'numeric', month: 'short', year: '2-digit' })}`}</time>
+                                            <p className='text-sm mobile-xs:text-[10px] mobile-sm:text-[11px] mobile-md:text-xs'>{school.date}</p>
                                             <h3 className='text-3xl font-semibold mobile-xs:text-lg mobile-sm:text-xl mobile-md:text-2xl'>{school.name}</h3>
                                         </div>
                                         <div>
@@ -99,7 +94,7 @@ const Event = () => {
                 </div>
 
 
-                <div className='mt-12 mobile-xs:hidden mobile-sm:hidden mobile-md:hidden desktop-xs:hidden flex justify-center'>
+                <div className='flex justify-center mt-12 mobile-xs:hidden mobile-sm:hidden mobile-md:hidden desktop-xs:hidden'>
                     <CustomButton btnClass={'py-3 text-md tracking-wider text-white border px-12 font-thin hover:bg-white bg-light-darkPrimary hover:text-light-textColor transition-all duration-300 ease-in '} link={'events'} btnName={'View Events'} />
                 </div>
 

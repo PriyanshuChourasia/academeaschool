@@ -1,24 +1,18 @@
 [
     {
         "id":1,
-        "name":"Cultural Fest",
-        "date": "01-11-2024",
+        "name":"Independence Day",
+        "date":"15-08-2018",
         "link":"View Events"
     },
     {
         "id":2,
-        "name":"Independence Day",
-        "date":"07-24-2018",
+        "name":"Republic Day",
+        "date":"25-01-2018",
         "link":"View Events"
     },
     {
         "id":3,
-        "name":"Republic Day",
-        "date":"03-08-2018",
-        "link":"View Events"
-    },
-    {
-        "id":4,
         "name":"Award Celebration",
         "date":"04-05-2017",
         "link":"View Events"

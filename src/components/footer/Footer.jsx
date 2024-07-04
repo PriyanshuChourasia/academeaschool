@@ -46,9 +46,8 @@ const Footer = () => {
       <div className='text-center mobile-sm:mt-8'>
         <p className='uppercase text-2xl font-medium mobile-xs:text-[15px] mobile-sm:text-[18px] mobile-md:text-xl text-light-primary'>Get in touch</p>
         <ul className='pt-8 mobile-xs:pt-2 mobile-sm:pt-4 mobile-md:pt-6 text-white text-lg mobile-xs:text-sm mobile-sm:text-[16px] mobile-md:text-[17px]'>
-          <li className='text-[18px] leading-5 text-white py-2'>Nava Jyoti Vidyapith</li>
-          <li className='text-[18px] leading-5 text-white py-2'>20/1, E Kapte Para Rd, Authpur,</li>
-          <li className='text-[18px] leading-5 text-white py-2'> Shyamnagar, Bhatpara, West Bengal 743128</li>
+          <li className='text-[18px] leading-10 text-white text-wrap py-2'>{import.meta.env.VITE_REACT_APP_SCHOOL_VISIT_ADDRESS}</li>
+       
           {/* <li className='py-2 text-sm text-white'>info@mysite.com</li> */}
         </ul>
       </div>
