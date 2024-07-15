@@ -4,6 +4,7 @@ import event2Img from '../../assets/images/navajyotievent/event3.jpeg';
 import event3Img from '../../assets/images/navajyotievent/event4.jpeg';
 import CustomButton from '../buttons/CustomButton';
 import SchoolEvent from '../../data/EventDataJson/SchoolEvent.json';
+import schoolVideo from '../../assets/schoolVideo/SchoolVideo.mp4';
 
 
 
@@ -22,7 +23,7 @@ const Event = () => {
     let currentDate = `${day}-${month}-${year}`;
 
     const eventCard = [
-  
+
         {
             "id": 2,
             "date": currentDate,
@@ -47,9 +48,9 @@ const Event = () => {
             </div>
             <div className={`mt-14 py-14 w-full ${HomeCss.eventBg}`}>
 
-
-                <div className='flex justify-center px-14 mobile-xs:hidden mobile-sm:hidden mobile-md:hidden desktop-xs:hidden'>
-                    {
+               
+                <div className=' px-14 mobile-xs:hidden mobile-sm:hidden mobile-md:hidden desktop-xs:hidden'>
+                    {/* {
                         eventCard.map((card) => (
                             <div key={card.id} className={`w-96 mx-6 rounded overflow-hidden shadow-lg bg-cover relative`}>
                                 <div className='absolute inset-0 bg-black opacity-50'></div>
@@ -69,8 +70,20 @@ const Event = () => {
 
                             </div>
                         ))
-                    }
+                    } */}
+
+                    {/* <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fwww.24ghontalive%2Fvideos%2F1258235285141330%2F&show_text=false&width=560&t=0" width="560" height="314" style={{border:'none',overflow:'hidden'}} allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe> */}
+                    <h1 className='pb-8 text-2xl font-bold text-center underline text-light-darkSecondary underline-offset-2'>School Foundation Day Celebrations Covered by <b className='text-red-800'>24GhontaLive</b></h1>
+                    <div className='flex justify-center'>
+                    <video controls>
+                        <source src={schoolVideo} type="video/mp4" />
+                    </video>
+                    </div>
+            
+
                 </div>
+
+
                 <div className='hidden mobile-xs:block mobile-sm:block mobile-md:block desktop-xs:block'>
                     <div className='flex justify-center px-14 mobile-xs:block mobile-sm:block mobile-md:block desktop-xs:block '>
                         {
